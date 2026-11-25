@@ -1,0 +1,19 @@
+{
+  "name": "fieldscout-mesh",
+  "version": "0.1.0",
+  "description": "Wire format and reference implementation for FieldScout check-ins over MeshCore group datagrams.",
+  "license": "MIT",
+  "type": "module",
+  "private": true,
+  "repository": "github:amphora-codex/fieldscout-mesh",
+  "homepage": "https://amphoracodex.com/fieldscout",
+  "scripts": {
+    "test": "node --import tsx --test test/*.test.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.0",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.2"
+  }
+}
